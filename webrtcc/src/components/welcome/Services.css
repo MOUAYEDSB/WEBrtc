@@ -1,0 +1,68 @@
+.services .section-head .text-lg {
+    color: black;
+    margin-top: rem;
+}
+.services .section-head img {
+    margin: -.7rem auto;
+}
+.line-art {
+    max-width: 240px;
+    margin: auto;
+}
+.line-art img {
+    width: 30px;
+}
+.line-art div {
+	margin: 5px;
+    width: 100px;
+    height: 2px;
+    background-color: #1593ff;
+}
+.services-inner {
+    display: grid;
+    /* gap: 6rem; Space between grid items */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    justify-items: center; /* Center items within the grid */
+    padding: 6rem 0;
+}
+.service-item {
+    padding: 2%;
+    margin-bottom: 3rem;
+}
+.service-item:last-child {
+    margin-bottom: 0;
+}
+.service-item .icon img {
+    width: 80px;
+    margin: auto;
+}
+.service-item h3 {
+    margin: 5rem 0;
+    opacity: 0.7;
+}
+.services .section-head .lead {
+    font-size: 3rem; /* Updated font size */
+}
+
+.services {
+    padding: 5.9rem 0; /* Add this padding */
+}
+.grid{
+    display: grid;
+}
+
+  
+  .text-inline h3
+  {
+    margin: 1; /* Remove default margin */
+    line-height: 1.2; /* Adjust line height if necessary */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow if text is too long */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+  }
+  
+  
+  .service-item {
+    margin-bottom: 5rem; /* Adjust as needed to create space between articles */
+  }
+  

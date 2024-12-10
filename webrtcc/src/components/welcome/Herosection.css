@@ -1,0 +1,25 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.tittle{
+	font-weight: 700;
+
+}
+
+.sub-tittle{
+	font-family: 'Work Sans', sans-serif;
+}
+.heroSection{
+	justify-content: center;
+}
+
+
+

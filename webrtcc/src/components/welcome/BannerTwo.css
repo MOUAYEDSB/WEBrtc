@@ -1,0 +1,108 @@
+/* banner two section */
+.banner-two {
+	background: linear-gradient(rgba(0, 80, 213, 0.9), rgba(0, 90, 213, 0.85)), url('../../assets/banner-2.png') top/cover no-repeat;
+	padding: 2.6rem 0;
+  }
+  
+  .banner-two .lead {
+	font-size: 2.2rem;
+	margin-top: 6rem;
+  }
+  
+  .banner-two .btn-group {
+	margin-top: 6rem;
+	justify-content: center;
+  }
+  
+  #banner-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f7f7f7;
+  }
+  
+  .text-center.section-head {
+	font-size: 4rem;
+	display: contents;
+
+  }
+  .btn-container {
+	display: flex;
+	justify-content: center; /* Center the buttons */
+	margin-top: 1rem; /* Add some top margin */
+  }
+  
+  .btn-group {
+	display: flex;
+	gap: 5rem; /* Space between buttons */
+  }
+  
+  .btn-group .btn {
+	padding: 0.5rem 1.5rem; /* Adjust padding as needed */
+	background-color: #0050d5;
+	color: white;
+	border-radius: 0;
+  }
+  
+ 
+  
+  .container.grid.a2 {
+	margin: 0 100px;
+  }
+  
+  .line-art.flex.a1 {
+	margin-top: 60px;
+  }
+  
+  .container.grid.a3 {
+	margin: 20px 20px 20px 570px;
+	width: 100%;
+  }
+  
+  .contact.py {
+	width: 80%;
+	margin: 0px 200px 200px 430px;
+  }
+  
+  .navbar-brand.a1 {
+	width: 2px;
+	height: 30px;
+  }
+  
+  .img1 {
+	width: 10vw;
+	height: 10vw;
+	max-width: 2000px;
+	max-height: 400px;
+	margin-top: -40px;
+	margin-left: -100px;
+  }
+  
+  .banner-one.text-center.a6 {
+	background-color: #00ccff;
+  }
+  
+  .image-container {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .image-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #66cc33;
+	opacity: 0.5;
+	z-index: 1;
+  }
+  
+  .image-container img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+  }
+  

@@ -1,0 +1,68 @@
+/* BannerOne.css */
+
+/* General banner-one section styling */
+.banner-one {
+    background: linear-gradient(
+        rgba(0, 80, 213, 0.9), 
+        rgba(0, 90, 213, 0.85)
+    ), 
+    url('../../assets/banner-1.png') top/cover no-repeat;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+/* Ensure that text content has higher z-index than the background image overlay */
+.banner-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Ensure content is above the pseudo-element */
+.banner-one .container {
+    z-index: 2;
+}
+
+/* Styling for the lead text */
+.banner-one .lead {
+    font-size: 2.2rem;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    line-height: 1.5;
+}
+
+/* Styling for the quote icons */
+.banner-one .lead i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+/* Styling for the small text (author) */
+.banner-one .text-sm {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .banner-one .lead {
+        font-size: 1.8rem;
+        max-width: 90%;
+    }
+    
+    .banner-one .text-sm {
+        font-size: 0.9rem;
+    }
+}
